@@ -1,0 +1,20 @@
+@media screen and (max-width: $breakpoint-tablet) {
+    .container {
+        max-width: $container-mobile-width;
+    }
+
+    .products {
+        grid-template-columns: $grid-columns-tablet;
+        column-gap: $grid-gap-tablet;
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+    .products {
+        display: block;
+    }
+
+    .product-item {
+        margin-bottom: 32px;
+    }
+}

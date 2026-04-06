@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+
+    li {
+        font-weight: $font-weight-bold;
+        margin-left: $spacing-md;
+
+        a {
+            color: $text-color;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}

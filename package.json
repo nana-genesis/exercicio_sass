@@ -1,0 +1,17 @@
+{
+  "name": "sass-project",
+  "version": "1.0.0",
+  "description": "Projeto com SASS",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch src/scss/main.scss:css/styles.css --style compressed",
+    "sass:build": "sass src/scss/main.scss:css/styles.css --style compressed",
+    "sass:dev": "sass --watch src/scss/main.scss:css/styles.css --style expanded --source-map"
+  },
+  "keywords": ["sass", "css", "responsive"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}

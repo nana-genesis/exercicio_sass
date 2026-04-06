@@ -1,0 +1,40 @@
+// Cores principais
+$primary-color: #182C61;
+$secondary-color: #44bd32;
+$secondary-color-hover: #4cd137;
+$background-color: #f5f6fa;
+$text-color: #fff;
+$text-dark: #000;
+
+// Espaçamentos
+$spacing-xs: 8px;
+$spacing-sm: 16px;
+$spacing-md: 24px;
+$spacing-lg: 40px;
+$spacing-xl: 56px;
+
+// Breakpoints
+$breakpoint-tablet: 1023px;
+$breakpoint-mobile: 767px;
+
+// Container
+$container-max-width: 1024px;
+$container-mobile-width: 80%;
+
+// Grid
+$grid-columns-desktop: repeat(3, 32.66%);
+$grid-columns-tablet: repeat(2, 48.5%);
+$grid-gap-desktop: 1%;
+$grid-gap-tablet: 3%;
+
+// Border radius
+$border-radius-md: 8px;
+$border-radius-lg: 16px;
+
+// Fontes
+$font-family-primary: 'Roboto', sans-serif;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// Z-index
+$z-index-sticky: 100;

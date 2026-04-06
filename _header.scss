@@ -1,0 +1,20 @@
+header {
+    background-color: $primary-color;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: $z-index-sticky;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: $spacing-sm 0;
+    }
+}
+
+.branding {
+    img {
+        display: block;
+    }
+}
